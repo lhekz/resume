@@ -1,0 +1,37 @@
+// // #Navbar {
+
+// /* Mobile menu styles */
+// #mobileMenu {
+//     display: none; /* Hidden by default */
+// }
+
+// /* Show mobile menu when active */
+// #mobileMenu.active {
+//     display: flex;
+// }
+
+// /* Make sure the list items in the nav look similar to desktop */
+// #mobileMenu li {
+//     list-style: none;
+// }
+// // }
+
+@media screen and (max-width: 700px) {
+    ol {
+      width: 100%;
+      height: auto;
+      position: relative;
+
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+ 
